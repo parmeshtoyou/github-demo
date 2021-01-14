@@ -1,7 +1,11 @@
 package search;
 
 public class SearchApi {
-    void search(String text) {
-        System.out.println(text);
+    void searchItem(String itemNumber) {
+        System.out.println(itemNumber);
+    }
+
+    void searchLocation(String locationNumber) {
+        System.out.println(locationNumber);
     }
 }
